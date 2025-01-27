@@ -6,3 +6,6 @@ go build hello.go
 
 # strace
 strace -o hello.log ./hello
+
+# strace -T
+strace -T -o hello2.log ./hello
